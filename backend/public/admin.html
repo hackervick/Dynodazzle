@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dyno Dazzle — Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<!-- LOGIN GATE -->
+<div class="login-screen" id="loginScreen">
+  <form class="login-card" id="loginForm">
+    <span class="brand">Dyno<em>Dazzle</em></span>
+    <h1>Admin</h1>
+    <p class="muted">Enter the admin password to view leads.</p>
+    <input type="password" id="passwordInput" placeholder="Admin password" autocomplete="current-password" required>
+    <button type="submit" class="btn">Log in</button>
+    <p class="error" id="loginError"></p>
+  </form>
+</div>
+
+<!-- DASHBOARD -->
+<div class="dashboard hidden" id="dashboard">
+  <header class="admin-nav">
+    <span class="brand">Dyno<em>Dazzle</em> <span class="muted">/ admin</span></span>
+    <div class="admin-nav-actions">
+      <span class="lead-count" id="leadCount"></span>
+      <button class="btn-ghost" id="refreshBtn">Refresh</button>
+      <button class="btn-ghost" id="logoutBtn">Log out</button>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="table-wrap">
+      <table id="leadsTable">
+        <thead>
+          <tr>
+            <th>Received</th>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Service</th>
+            <th>Budget</th>
+            <th>Message</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="leadsBody"></tbody>
+      </table>
+      <p class="empty-state hidden" id="emptyState">No leads yet — once someone submits the contact form, they'll show up here.</p>
+    </div>
+  </main>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

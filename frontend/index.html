@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dyno Dazzle — Custom software, built fast</title>
+<meta name="description" content="Dyno Dazzle designs and ships custom software: web apps, mobile apps, and business tools like expense managers, for teams who'd rather not wait on it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- NAV -->
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="28" height="28">
+          <path class="logo-bolt" d="M22 2 L8 22 H18 L16 38 L32 16 H21 Z"/>
+        </svg>
+      </span>
+      <span class="logo-word">Dyno<em>Dazzle</em></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#about">About</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary btn-sm">Start a project</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Custom software, built fast</p>
+      <h1>We build the software<br> your business <span class="dazzle-word">runs on<span class="underline-spark" aria-hidden="true"></span></span>.</h1>
+      <p class="lede">Dyno Dazzle designs and ships custom apps, dashboards, and internal tools — from expense trackers to full platforms — for teams who'd rather not wait around for it.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Start a project</a>
+        <a href="#work" class="btn btn-ghost">See our work →</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>2–6</strong><span>week average build</span></div>
+        <div><strong>100%</strong><span>custom, no templates</span></div>
+        <div><strong>1</strong><span>team, start to finish</span></div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg class="spark-burst" viewBox="0 0 400 400" width="400" height="400">
+        <g class="ring ring-1"><circle cx="200" cy="200" r="150" /></g>
+        <g class="ring ring-2"><circle cx="200" cy="200" r="110" /></g>
+        <g class="spark-core">
+          <path d="M212 90 L150 220 H196 L184 320 L262 180 H216 Z"/>
+        </g>
+        <g class="orbit-dot dot-a"><circle r="5"/></g>
+        <g class="orbit-dot dot-b"><circle r="4"/></g>
+        <g class="orbit-dot dot-c"><circle r="3.5"/></g>
+      </svg>
+    </div>
+  </div>
+  <div class="circuit-divider" aria-hidden="true"><span class="pulse-dot"></span></div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="section-head">
+    <p class="eyebrow">What we build</p>
+    <h2>One studio. Every layer of the stack.</h2>
+  </div>
+  <div class="service-grid">
+    <article class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></svg></div>
+      <h3>Custom Software</h3>
+      <p>Purpose-built tools shaped around how your business actually works, not how generic software assumes it does.</p>
+    </article>
+    <article class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+      <h3>Web Applications</h3>
+      <p>Fast, responsive web apps and dashboards — the kind that don't lag the moment real data shows up.</p>
+    </article>
+    <article class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 18h4"/></svg></div>
+      <h3>Mobile Apps</h3>
+      <p>iOS and Android apps built for daily use, not just a demo day — offline-friendly and battle-tested.</p>
+    </article>
+    <article class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16M8 15v-4M12 15V8M16 15v-7"/></svg></div>
+      <h3>Business &amp; Finance Tools</h3>
+      <p>Expense trackers, invoicing, budgeting dashboards — the tool your spreadsheets wish they were.</p>
+    </article>
+    <article class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></div>
+      <h3>IT Consulting</h3>
+      <p>Architecture reviews, stack audits, and roadmaps that don't require a computer science degree to read.</p>
+    </article>
+    <article class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 2l3 6 6 1-4.5 4.5L18 20l-6-3-6 3 1.5-6.5L3 9l6-1z"/></svg></div>
+      <h3>Support &amp; Maintenance</h3>
+      <p>We stick around after launch — bug fixes, updates, and scaling help, on a retainer that flexes with you.</p>
+    </article>
+  </div>
+</section>
+
+<div class="circuit-divider" aria-hidden="true"><span class="pulse-dot"></span></div>
+
+<!-- WORK / PORTFOLIO -->
+<section class="work" id="work">
+  <div class="section-head">
+    <p class="eyebrow">Recent work</p>
+    <h2>Built, shipped, actually used.</h2>
+  </div>
+
+  <div class="feature-project">
+    <div class="feature-copy">
+      <span class="tag">Business &amp; Finance Tools</span>
+      <h3>Expense Manager</h3>
+      <p>A day-to-day expense tracking dashboard we built for a growing team: receipts in, categories sorted automatically, monthly burn visible at a glance. No more chasing spreadsheets at month-end.</p>
+      <ul class="feature-tags">
+        <li>Receipt capture</li>
+        <li>Auto-categorization</li>
+        <li>Monthly reports</li>
+        <li>Team approvals</li>
+      </ul>
+    </div>
+    <div class="feature-mock" aria-hidden="true">
+      <div class="mock-window">
+        <div class="mock-titlebar"><span></span><span></span><span></span></div>
+        <div class="mock-body">
+          <div class="mock-sidebar">
+            <div class="mock-pill mock-pill-active"></div>
+            <div class="mock-pill"></div>
+            <div class="mock-pill"></div>
+            <div class="mock-pill"></div>
+          </div>
+          <div class="mock-main">
+            <div class="mock-cards">
+              <div class="mock-stat"><span class="mock-stat-label">This month</span><span class="mock-stat-value">$4,218</span></div>
+              <div class="mock-stat"><span class="mock-stat-label">Pending</span><span class="mock-stat-value">$612</span></div>
+            </div>
+            <div class="mock-chart">
+              <div class="bar" style="--h:38%"></div>
+              <div class="bar" style="--h:62%"></div>
+              <div class="bar" style="--h:45%"></div>
+              <div class="bar" style="--h:80%"></div>
+              <div class="bar" style="--h:55%"></div>
+              <div class="bar" style="--h:70%"></div>
+              <div class="bar" style="--h:30%"></div>
+            </div>
+            <div class="mock-rows">
+              <div class="mock-row"><span class="dot"></span><span class="line"></span><span class="amt">$84.00</span></div>
+              <div class="mock-row"><span class="dot"></span><span class="line"></span><span class="amt">$212.50</span></div>
+              <div class="mock-row"><span class="dot"></span><span class="line"></span><span class="amt">$19.99</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-grid">
+    <article class="project-card">
+      <div class="project-thumb thumb-a" aria-hidden="true"></div>
+      <span class="tag">Web Application</span>
+      <h4>Route — logistics dashboard</h4>
+      <p>Live fleet tracking and delivery scheduling for a regional courier service.</p>
+    </article>
+    <article class="project-card">
+      <div class="project-thumb thumb-b" aria-hidden="true"></div>
+      <span class="tag">Business Tool</span>
+      <h4>Ledger — invoicing &amp; billing</h4>
+      <p>Recurring invoices, payment tracking, and client statements in one clean tool.</p>
+    </article>
+    <article class="project-card">
+      <div class="project-thumb thumb-c" aria-hidden="true"></div>
+      <span class="tag">Mobile App</span>
+      <h4>Shiftly — staff scheduling</h4>
+      <p>Shift swaps, availability, and payroll-ready hours for hourly teams.</p>
+    </article>
+  </div>
+</section>
+
+<div class="circuit-divider" aria-hidden="true"><span class="pulse-dot"></span></div>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="section-head">
+    <p class="eyebrow">How it works</p>
+    <h2>Five steps. No mystery in between.</h2>
+  </div>
+  <ol class="process-list">
+    <li><span class="step-num">01</span><div><h4>Discover</h4><p>A scope call to understand your workflow, not just your feature list.</p></div></li>
+    <li><span class="step-num">02</span><div><h4>Design</h4><p>Wireframes and UI direction you sign off on before we write code.</p></div></li>
+    <li><span class="step-num">03</span><div><h4>Build</h4><p>Short sprints with visible, working progress — never a black box.</p></div></li>
+    <li><span class="step-num">04</span><div><h4>Launch</h4><p>Deploy, test against real usage, and hand off cleanly.</p></div></li>
+    <li><span class="step-num">05</span><div><h4>Support</h4><p>We stay on for fixes, updates, and scaling help after go-live.</p></div></li>
+  </ol>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <p class="eyebrow">About Dyno Dazzle</p>
+    <h2>A small studio that ships.</h2>
+    <p>We're a compact team that would rather build one thing well than juggle a hundred badly. Every project gets the same people from kickoff to launch — no handoffs, no account managers relaying messages. If you've got a workflow held together by spreadsheets and sticky notes, that's exactly the kind of problem we like.</p>
+  </div>
+</section>
+
+<div class="circuit-divider" aria-hidden="true"><span class="pulse-dot"></span></div>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-copy">
+      <p class="eyebrow">Get in touch</p>
+      <h2>Tell us what you're building.</h2>
+      <p>Fill this in and we'll reply within a business day with next steps — no sales call required to get a straight answer.</p>
+      <div class="contact-detail">
+        <span class="label">Email</span>
+        <span>hello@dynodazzle.dev</span>
+      </div>
+      <div class="contact-detail">
+        <span class="label">Response time</span>
+        <span>Within 1 business day</span>
+      </div>
+    </div>
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required autocomplete="name">
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+      </div>
+      <div class="form-row">
+        <label for="phone">Phone <span class="optional">(optional)</span></label>
+        <input type="tel" id="phone" name="phone" autocomplete="tel">
+      </div>
+      <div class="form-row">
+        <label for="service">Interested in</label>
+        <select id="service" name="service" required>
+          <option value="" disabled selected>Select a service</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="budget">Budget range</label>
+        <select id="budget" name="budget">
+          <option value="not-sure">Not sure yet</option>
+          <option value="under-2k">Under $2,000</option>
+          <option value="2k-5k">$2,000 – $5,000</option>
+          <option value="5k-15k">$5,000 – $15,000</option>
+          <option value="15k-plus">$15,000+</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="message">Project details</label>
+        <textarea id="message" name="message" rows="4" required placeholder="What are you trying to build?"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send it over</button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-word">Dyno<em>Dazzle</em></span>
+      <p>Custom software, built fast.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-meta">
+      <p>&copy; <span id="year"></span> Dyno Dazzle. All rights reserved.</p>
+      <a href="admin.html" class="footer-admin">Admin</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
