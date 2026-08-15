@@ -30,5 +30,5 @@ app.use("/api", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Dyno Dazzle backend running at http://localhost:${PORT}`);
-  console.log(`Admin panel: http://localhost:${PORT}/admin.html`);
+  console.log(`Admin panel: https://dynodazzle-1.onrender.com/admin.html`);
 });
