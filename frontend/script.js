@@ -1,6 +1,6 @@
 // ---- config ----
 // Points at the backend API. Change this if you deploy the backend elsewhere.
-const API_BASE = window.API_BASE || "http://localhost:4000/api";
+const API_BASE = window.API_BASE || "https://dynodazzle-1.onrender.com/api";
 
 // ---- footer year ----
 document.getElementById("year").textContent = new Date().getFullYear();
